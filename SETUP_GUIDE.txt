@@ -6,35 +6,37 @@ Keep the files and directory as they are, do not change their placement.
 
 Project structure:
 
-DataForge_code/
-├── app.py                      # Main Application Entry (Upload & Schema Check & Session state initialization)
-├── requirements.txt            # Python Dependencies
-├── Apartments_dataset.csv	 # The experiment data-set
-├── some png files that were used in different application pages
-├── README.txt 	         # This file
+DataForge/
+├── app.py                       # Main Application Entry (Upload & Schema Check & Session state initialization)
+├── requirements.txt             # Python Dependencies
+├── Apartments_dataset.csv	      # The experiment data-set
+├── SETUP_GUIDE.txt              # This configuration and installation manual
+├── README.md                    # Project executive summary
 │
-├── pages/                      # Streamlit pages
-│   ├── 01_preprocessing.py     # Negotiation and data cleaning and logging Interface (Mode A / Mode B)
-│   └── 02_export.py	          # Metrics Calculation & Data Export & session summary
+├── assets/                      # UI Image assets
+│   └── *.png                    # Application icons and visuals
+├── pages/                       # Streamlit pages
+│   ├── 01_preprocessing.py      # Negotiation and data cleaning and logging Interface (Mode A / Mode B)
+│   └── 02_export.py	            # Metrics Calculation & Data Export & session summary
 │
-├── Agent_reasoning/		  # Cached LLM Explanations	
-│   └── Agent_reasoning.json	  # Agent explainability in JSON
+├── Agent_reasoning/		         # Cached LLM Explanations	
+│   └── Agent_reasoning.json	   # Agent explainability in JSON
 │
 ├── Models/                      # Logic Models
 │   ├── LLM_Invoke_Script.py     # Backend script to generate LLM reasoning (Offline)
-│   └── Rule_Based_Flag.py	  # Statistical Outlier Detection Engine
+│   └── Rule_Based_Flag.py	      # Statistical Outlier Detection Engine
 │
 ├── Study_Results/               # User logs 
 │   ├── csv files                # Each holds the experiment participants results and decisions
 
 
 INSTALLATION:
-a. Create a new Python environment (with Python 3.10) if Miniconda is installed, you can create a new Python
+1. Create a new Python environment (with Python 3.10) if Miniconda is installed, you can create a new Python
    environment by executing the following command “conda create --name <env_name> Python=3.10” in your terminal (in the root DataForge - code directory)
-b. Activate the environment. using “conda activate <env_name>” (if you used Miniconda).
-2. Install the requirements.txt dependencies with pip install -r requirements.txt
-3. Download and then install Ollama. (just like we did in homework 2)
-4. After Ollama installation is complete, restart your terminal and pull the llama3.1 model by running the command “ollama pull llama3.1” in your terminal
+2. Activate the environment. using “conda activate <env_name>” (if you used Miniconda).
+3. Install the requirements.txt dependencies with pip install -r requirements.txt
+4. Download and then install Ollama. (just like we did in homework 2)
+5. After Ollama installation is complete, restart your terminal and pull the llama3.1 model by running the command “ollama pull llama3.1” in your terminal
    (make sure you run it in the newly created Python environment). The installation will
    require you to have at least 1GB of free space to run properly.
 
