@@ -1,0 +1,31 @@
+listing_id,city,neighborhood,apartment_size_sqm,num_rooms,floor,total_floors,price_ils,year_built,has_elevator,ground_truth,is_mine
+1001,Tel Aviv,Florentin,18,1,2,4,3800000,1965,FALSE,Keep,TRUE
+1002,Tel Aviv,Florentin,55,2,3,5,4200000,2030,TRUE,Delete,FALSE
+1003,Tel Aviv,Lev Hair,62,3,2,4,4600000,20225,TRUE,Delete,FALSE
+1004,Tel Aviv,Ramat Aviv,0,4,2,8,5300000,2005,TRUE,Delete,FALSE
+1005,Tel Aviv,Neve Tzedek,160,5,6,6,14500000,2018,TRUE,Keep,TRUE
+1006,Tel Aviv,Kerem HaTeimanim,45,3,2,3,51000000,1960,FALSE,Delete,FALSE
+1007,Tel Aviv,Old North,110,0,3,5,7600000,1998,TRUE,Delete,FALSE
+1008,Tel Aviv,Florentin,60,6,5,2,3900000,1972,TRUE,Delete,FALSE
+1009,Tel Aviv,Lev Hair,70,3,3,3,47000500,1988,TRUE,Delete,FALSE
+1010,Tel Aviv,Ramat Aviv,88,4,1,7,5100,2003,TRUE,Delete,FALSE
+1011,Tel Aviv,Kerem HaTeimanim,46,3,1,3,4050000,1100,TRUE,Delete,FALSE
+1012,Tel Aviv,Old North,112,4,23,5,7800000,2000,TRUE,Delete,FALSE
+1013,Tel Aviv,Florentin,61,6,2,2,400000,1974,FALSE,Delete,FALSE
+1014,Tel Aviv,Lev Hair,5,2,2,4,4400000,1990,TRUE,Delete,FALSE
+1015,Tel Aviv,Lev Hair,72,3,3,3,4800000,1991,yes,Edit,TRUE
+1016,Tel Aviv,Florentin,19,1,1,3,3700000,1962,FALSE,Keep,TRUE
+1017,Tel Aviv,Lev Hair,60,2,2,0,4450000,1993,TRUE,Delete,FALSE
+1019,Tel Aviv,Ramat Aviv,95,4,3,8,54500000,2006,TRUE,Delete,FALSE
+1020,Tel Aviv,Kerem HaTeimanim,0,3,1,3,4000000,1955,FALSE,Delete,FALSE
+1018,Tel Aviv,Neve Tzedek,155,4,5,5,14200000,2017,TRUE,Keep,TRUE
+1021,Tel Aviv,Old North,108,4,2,5,7500000,1800,TRUE,Delete,FALSE
+1022,Tel Aviv,Florentin,59,6,1,2,3850000,1850,FALSE,Delete,FALSE
+1023,Tel Aviv,Lev Hair,1000,2,3,5,4300000,1987,TRUE,Delete,FALSE
+1024,Tel Aviv,Ramat Aviv,90,0,2,7,5250000,2004,TRUE,Delete,FALSE
+1025,Tel Aviv,Kerem HaTeimanim,47,3,2,3,41500,1962,FALSE,Delete,FALSE
+1026,Tel Aviv,Old North,115,4,43,6,7900000,2001,TRUE,Delete,FALSE
+1027,Tel Aviv,Florentin,62,6,2,2,4050000,1000,TRUE,Delete,FALSE
+1028,Tel Aviv,Florentin,68,3,65,4,3850000,1989,TRUE,Delete,FALSE
+1029,Tel Aviv,Ramat Aviv,0,4,3,8,5400000,2007,TRUE,Delete,FALSE
+1030,Tel Aviv,Lev Hair,71,3,3,3,4750000,1992,yes,Edit,TRUE

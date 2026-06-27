@@ -1,0 +1,50 @@
+Hello.
+This file explains how to run the DataForge app.
+
+CRITICAL FOLDER SETUP:
+Keep the files and directory as they are, do not change their placement.
+
+Project structure:
+
+DataForge_code/
+├── app.py                      # Main Application Entry (Upload & Schema Check & Session state initialization)
+├── requirements.txt            # Python Dependencies
+├── Apartments_dataset.csv	 # The experiment data-set
+├── some png files that were used in different application pages
+├── README.txt 	         # This file
+│
+├── pages/                      # Streamlit pages
+│   ├── 01_preprocessing.py     # Negotiation and data cleaning and logging Interface (Mode A / Mode B)
+│   └── 02_export.py	          # Metrics Calculation & Data Export & session summary
+│
+├── Agent_reasoning/		  # Cached LLM Explanations	
+│   └── Agent_reasoning.json	  # Agent explainability in JSON
+│
+├── Models/                      # Logic Models
+│   ├── LLM_Invoke_Script.py     # Backend script to generate LLM reasoning (Offline)
+│   └── Rule_Based_Flag.py	  # Statistical Outlier Detection Engine
+│
+├── Study_Results/               # User logs 
+│   ├── csv files                # Each holds the experiment participants results and decisions
+
+
+INSTALLATION:
+a. Create a new Python environment (with Python 3.10) if Miniconda is installed, you can create a new Python
+   environment by executing the following command “conda create --name <env_name> Python=3.10” in your terminal (in the root DataForge - code directory)
+b. Activate the environment. using “conda activate <env_name>” (if you used Miniconda).
+2. Install the requirements.txt dependencies with pip install -r requirements.txt
+3. Download and then install Ollama. (just like we did in homework 2)
+4. After Ollama installation is complete, restart your terminal and pull the llama3.1 model by running the command “ollama pull llama3.1” in your terminal
+   (make sure you run it in the newly created Python environment). The installation will
+   require you to have at least 1GB of free space to run properly.
+
+RUNNING THE APP:
+use streamlit run app.py in your terminal
+
+USAGE:
+Upload Data: Drag and drop the dataset Apartments_dataset.csv - for the experiment mode or any other CSV for the general, less interesting mode
+Negotiate: Mode A (Rows 1-15): "Black Box" baseline. Shows only statistical flags and actions. Mode B (Rows 16-30): "Explainable" interface. Displays AI-generated reasoning and context.
+
+EXPORT:
+You can download the cleaned CSV.
+An automatic file will be downloaded to the Study_Results folder that contains the log for the user with the calculated metrics.

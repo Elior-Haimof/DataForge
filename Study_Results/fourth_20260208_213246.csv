@@ -1,0 +1,41 @@
+---- STUDY SUMMARY ----
+Metric,Total,Mode_A,Mode_B
+False_Acceptance_Rate (%),50.0,66.66666666666666,33.33333333333333
+Correct_Rejection_Rate (%),33.33333333333333,0.0,66.66666666666666
+Decision_Accuracy (%),33.33333333333333,26.666666666666668,40.0
+Total Mines,6.0,3.0,3.0
+Total Rows,30.0,15.0,15.0
+
+
+---- DETAILED INTERACTION LOG ----
+listing_id,decision,is_mine,mode,edited_value,old_value,edited_col_name,edited_row_index,ground_truth
+1001,Delete,True,A,,,,,Keep
+1002,Delete,False,A,,,,,Delete
+1003,Edit,False,A,2025,20225,year_built,2.0,Delete
+1004,Edit,False,A,70,0,apartment_size_sqm,3.0,Delete
+1005,Delete,True,A,,,,,Keep
+1006,Delete,False,A,,,,,Delete
+1007,Edit,False,A,4,0,num_rooms,6.0,Delete
+1008,Keep,False,A,,,,,Delete
+1009,Delete,False,A,,,,,Delete
+1010,Edit,False,A,5100000,5100,price_ils,9.0,Delete
+1011,Delete,False,A,,,,,Delete
+1012,Keep,False,A,,,,,Delete
+1013,Keep,False,A,,,,,Delete
+1014,Edit,False,A,50,5,apartment_size_sqm,13.0,Delete
+1015,Keep,True,A,,,,,Edit
+1016,Delete,True,B,,,,,Keep
+1017,Keep,False,B,,,,,Delete
+1018,Keep,True,B,,,,,Keep
+1019,Delete,False,B,,,,,Delete
+1020,Edit,False,B,65,0,apartment_size_sqm,18.0,Delete
+1021,Delete,False,B,,,,,Delete
+1022,Delete,False,B,,,,,Delete
+1023,Delete,False,B,,,,,Delete
+1024,Edit,False,B,3,0,num_rooms,23.0,Delete
+1025,Edit,False,B,4150000,41500,price_ils,24.0,Delete
+1026,Keep,False,B,,,,,Delete
+1027,Edit,False,B,2000,1000,year_built,26.0,Delete
+1028,Keep,False,B,,,,,Delete
+1029,Edit,False,B,90,0,apartment_size_sqm,28.0,Delete
+1030,Edit,True,B,TRUE,yes,has_elevator,29.0,Edit

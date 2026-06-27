@@ -1,0 +1,41 @@
+---- STUDY SUMMARY ----
+Metric,Total,Mode_A,Mode_B
+False_Acceptance_Rate (%),16.666666666666664,33.33333333333333,0.0
+Correct_Rejection_Rate (%),83.33333333333334,66.66666666666666,100.0
+Decision_Accuracy (%),93.33333333333333,86.66666666666667,100.0
+Total Mines,6.0,3.0,3.0
+Total Rows,30.0,15.0,15.0
+
+
+---- DETAILED INTERACTION LOG ----
+listing_id,decision,is_mine,mode,edited_value,old_value,edited_col_name,edited_row_index,ground_truth
+1001,Delete,True,A,,,,,Keep
+1002,Delete,False,A,,,,,Delete
+1003,Edit,False,A,2022,20225,year_built,2.0,Delete
+1004,Delete,False,A,,,,,Delete
+1005,Keep,True,A,,,,,Keep
+1006,Delete,False,A,,,,,Delete
+1007,Delete,False,A,,,,,Delete
+1008,Delete,False,A,,,,,Delete
+1009,Delete,False,A,,,,,Delete
+1010,Delete,False,A,,,,,Delete
+1011,Delete,False,A,,,,,Delete
+1012,Delete,False,A,,,,,Delete
+1013,Delete,False,A,,,,,Delete
+1014,Delete,False,A,,,,,Delete
+1015,Edit,True,A,TRUE,yes,has_elevator,14.0,Edit
+1016,Keep,True,B,,,,,Keep
+1017,Delete,False,B,,,,,Delete
+1018,Keep,True,B,,,,,Keep
+1019,Delete,False,B,,,,,Delete
+1020,Delete,False,B,,,,,Delete
+1021,Delete,False,B,,,,,Delete
+1022,Delete,False,B,,,,,Delete
+1023,Delete,False,B,,,,,Delete
+1024,Delete,False,B,,,,,Delete
+1025,Delete,False,B,,,,,Delete
+1026,Delete,False,B,,,,,Delete
+1027,Delete,False,B,,,,,Delete
+1028,Delete,False,B,,,,,Delete
+1029,Delete,False,B,,,,,Delete
+1030,Edit,True,B,TRUE,yes,has_elevator,29.0,Edit

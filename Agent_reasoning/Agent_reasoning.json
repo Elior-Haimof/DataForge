@@ -1,0 +1,166 @@
+{
+    "1001": {
+        "suggestion_type": "Keep",
+        "short_title": "Valid Studio in Tel Aviv",
+        "reasoning": "Apartment size (18 sqm) is within the legal studio range for Tel Aviv, and it's a single room which aligns with the micro-apartments rule."
+    },
+    "1002": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid year built",
+        "reasoning": "The 'year_built' is logically impossible, as it's in the future.",
+        "suggested_value": null
+    },
+    "1003": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid year built",
+        "reasoning": "The 'year_built' is logically impossible, as it exceeds the current year by a significant margin."
+    },
+    "1004": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid Studio Size",
+        "reasoning": "Apartment size of 0 sqm is likely a storage unit, not a valid studio in Tel Aviv."
+    },
+    "1005": {
+        "suggestion_type": "Keep",
+        "short_title": "Valid Luxury Listing",
+        "reasoning": "High price in Neve Tzedek is normal due to luxury apartments and penthouses.",
+        "suggested_value": null
+    },
+    "1006": {
+        "suggestion_type": "Delete",
+        "short_title": "High price in Tel Aviv",
+        "reasoning": "Price of 51M is likely a data entry error for this neighborhood, considering the average prices and historic context.",
+        "suggested_value": null
+    },
+    "1007": {
+        "suggestion_type": "Delete",
+        "short_title": "Impossible zero rooms",
+        "reasoning": "Zero rooms is impossible for an apartment, violating the strict instruction to suggest 'Delete'."
+    },
+    "1008": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid Building Layout",
+        "reasoning": "Apartment floor is higher than Total Floors, which is physically impossible."
+    },
+    "1009": {
+        "suggestion_type": "Delete",
+        "short_title": "High price in Lev Hair",
+        "reasoning": "Price per sqm exceeds 250,000 ILS and is above 30,000,000 ILS with a size of 70 sqm, indicating an impossible price/sqm ratio.",
+        "suggested_value": null
+    },
+    "1010": {
+        "suggestion_type": "Delete",
+        "short_title": "Price under 500k impossible",
+        "reasoning": "The price of 5100 ILS is under the threshold of 500,000 ILS, which is impossible in Tel-Aviv."
+    },
+    "1011": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid year built",
+        "reasoning": "The 'year_built' is logically impossible, suggesting a historical error or data corruption."
+    },
+    "1012": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid Location Error",
+        "reasoning": "Apartment floor is higher than Total Floors, which is physically impossible."
+    },
+    "1013": {
+        "suggestion_type": "Delete",
+        "short_title": "Impossible Low Price",
+        "reasoning": "Price is under 500,000 in Tel-Aviv, which is impossible and not likely in Florentin.",
+        "suggested_value": null
+    },
+    "1014": {
+        "suggestion_type": "Delete",
+        "short_title": "Small Storage Unit",
+        "reasoning": "Size of 5 sqm is below the legal studio size in Tel Aviv, indicating a storage unit rather than an apartment.",
+        "suggested_value": null
+    },
+    "1015": {
+        "suggestion_type": "Edit",
+        "short_title": "Boolean Schema Fix",
+        "reasoning": "The value 'yes' is semantically clear but breaks the boolean schema.",
+        "suggested_value": true
+    },
+    "1016": {
+        "suggestion_type": "Keep",
+        "short_title": "Valid Studio in Tel Aviv",
+        "reasoning": "Apartment size (19 sqm) is within the legal studio range for Tel Aviv, and it's a single room which aligns with the micro-apartments rule."
+    },
+    "1017": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid total floors count",
+        "reasoning": "Total floors cannot be 0, indicating a data entry error in the context of high-rise buildings in Tel Aviv's Lev Hair neighborhood."
+    },
+    "1018": {
+        "suggestion_type": "Keep",
+        "short_title": "Valid Luxury Listing",
+        "reasoning": "High price in Neve Tzedek is normal due to luxury apartments and historic district context.",
+        "suggested_value": null
+    },
+    "1019": {
+        "suggestion_type": "Delete",
+        "short_title": "High price in Ramat Aviv",
+        "reasoning": "Price of 54M is likely a data entry error for this neighborhood, considering the average prices and size.",
+        "suggested_value": null
+    },
+    "1020": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid Studio Size",
+        "reasoning": "Apartment size of 0 sqm is likely a storage unit, not a valid studio in Tel Aviv."
+    },
+    "1021": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid year built",
+        "reasoning": "The 'year_built' is logically impossible, as it predates the establishment of Tel Aviv in 1909."
+    },
+    "1022": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid year built",
+        "reasoning": "The 'year_built' is logically impossible, as it predates the establishment of Tel Aviv in 1909.",
+        "suggested_value": null
+    },
+    "1023": {
+        "suggestion_type": "Delete",
+        "short_title": "Too big apartment size",
+        "reasoning": "The apartment size of 1000 sqm is significantly larger than the typical sizes found in Lev Hair, suggesting a data entry error.",
+        "suggested_value": null
+    },
+    "1024": {
+        "suggestion_type": "Delete",
+        "short_title": "Impossible zero rooms",
+        "reasoning": "Zero rooms is impossible for an apartment, violating strict instructions."
+    },
+    "1025": {
+        "suggestion_type": "Delete",
+        "short_title": "Impossible Low Price",
+        "reasoning": "Price is under 500000, which is impossible in Tel-Aviv.",
+        "suggested_value": null
+    },
+    "1026": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid Location Error",
+        "reasoning": "Apartment floor is higher than Total Floors, which is physically impossible."
+    },
+    "1027": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid year built",
+        "reasoning": "The 'year_built' is logically impossible, suggesting a data entry error."
+    },
+     "1028": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid Location Error",
+        "reasoning": "Apartment floor is higher than Total Floors, which is physically impossible.",
+        "suggested_value": null
+    },
+    "1029": {
+        "suggestion_type": "Delete",
+        "short_title": "Invalid Studio Size",
+        "reasoning": "Apartment size of 0 sqm is likely a storage unit, not a valid studio in Tel Aviv."
+    },
+    "1030": {
+        "suggestion_type": "Edit",
+        "short_title": "Boolean Schema Fix",
+        "reasoning": "The value 'yes' is semantically clear but breaks the boolean schema.",
+        "suggested_value": true
+    }
+}
