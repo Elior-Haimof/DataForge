@@ -6,7 +6,7 @@ Data preprocessing remains a massive bottleneck in data science. Traditional "bl
 
 **DataForge** is a "negotiated data cleaning" application that solves this. By integrating Meta's Llama 3, the system detects anomalies and generates natural language explanations for its flags. Instead of forcing automated deletions, it provides the user with the context needed to make informed decisions to accept, reject, or manually refine changes.
 
-![DataForge Demo](https://github.com/user-attachments/assets/8f51135a-4fab-4652-9c4b-94a91dc1e396)
+[DataForge Demo](https://github.com/user-attachments/assets/8f51135a-4fab-4652-9c4b-94a91dc1e396)
 
 ### 📈 Business Impact & Study Results
 We validated DataForge through a controlled within-subjects study using injected "data-mines" (valid outliers). Shifting from a black-box model to an explainable AI (XAI) interface yielded significant improvements in trust calibration:
