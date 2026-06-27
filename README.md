@@ -1,6 +1,9 @@
 # ⚒️ DataForge: Human-in-the-Loop AI Data Preprocessing
 
-[![Read The Academic Paper](https://img.shields.io/badge/📄_Read_The_Academic_Paper-0052CC?style=for-the-badge)](DataForge_Academic_Paper.pdf) ⚙️ **[View Detailed Environment Configuration Guide (TXT)](./SETUP_GUIDE.txt)**
+> ### 📄 [Click Here to Read the Full Academic Paper (PDF)](DataForge_Academic_Paper.pdf)
+> *Contains the complete research methodology, HCI heuristics implementation, and the controlled study results *
+>
+>  ⚙️ **[View Detailed Environment Configuration Guide (TXT)](./SETUP_GUIDE.txt)**
 
 Data preprocessing remains a massive bottleneck in data science. Traditional "black-box" cleaning tools rely on rigid statistical heuristics, often blindly deleting valid contextual data (e.g., flagging a luxury penthouse as an anomaly because its price exceeds the neighborhood mean). 
 
